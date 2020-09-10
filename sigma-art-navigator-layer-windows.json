@@ -1,5 +1,5 @@
 {
-	"name": "Sigma - ART (Windows)",
+	"name": "Sigma - ART - Windows coverage",
 	"version": "3.0",
 	"domain": "mitre-enterprise",
 	"description": "RED (score 100) - only ART test exists.\nBLUE (score 200) - only Sigma rule exists.\nGEEN (score 300) - both ART test and Sigma rule exist.",
@@ -35,26 +35,6 @@
 			"techniqueID": "T1548.002",
 			"tactic": "defense-evasion",
 			"score": 300,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1134",
-			"tactic": "defense-evasion",
-			"score": 200,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1134",
-			"tactic": "privilege-escalation",
-			"score": 200,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -274,7 +254,7 @@
 		{
 			"techniqueID": "T1020",
 			"tactic": "exfiltration",
-			"score": 300,
+			"score": 100,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -395,26 +375,6 @@
 			"techniqueID": "T1547.009",
 			"tactic": "privilege-escalation",
 			"score": 300,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1037",
-			"tactic": "persistence",
-			"score": 200,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1037",
-			"tactic": "privilege-escalation",
-			"score": 200,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -552,16 +512,6 @@
 			"showSubtechniques": false
 		},
 		{
-			"techniqueID": "T1136",
-			"tactic": "persistence",
-			"score": 200,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"showSubtechniques": false
-		},
-		{
 			"techniqueID": "T1136.001",
 			"tactic": "persistence",
 			"score": 300,
@@ -625,16 +575,6 @@
 			"techniqueID": "T1485",
 			"tactic": "impact",
 			"score": 300,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1132",
-			"tactic": "command-and-control",
-			"score": 200,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -1922,16 +1862,6 @@
 			"showSubtechniques": false
 		},
 		{
-			"techniqueID": "T1137",
-			"tactic": "persistence",
-			"score": 200,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"showSubtechniques": false
-		},
-		{
 			"techniqueID": "T1137.006",
 			"tactic": "persistence",
 			"score": 200,
@@ -1945,16 +1875,6 @@
 			"techniqueID": "T1201",
 			"tactic": "discovery",
 			"score": 300,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1069",
-			"tactic": "discovery",
-			"score": 200,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -2183,16 +2103,6 @@
 		},
 		{
 			"techniqueID": "T1563.002",
-			"tactic": "lateral-movement",
-			"score": 200,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1021",
 			"tactic": "lateral-movement",
 			"score": 200,
 			"color": "",
