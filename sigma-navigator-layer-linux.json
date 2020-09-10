@@ -1,6 +1,6 @@
 {
   "domain": "mitre-enterprise",
-  "name": "Sigma rules coverage",
+  "name": "Sigma rules coverage (GNU/Linux)",
   "gradient": {
     "colors": [
       "#a0eab5",
