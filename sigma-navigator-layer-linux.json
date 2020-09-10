@@ -13,92 +13,92 @@
   "techniques": [
     {
       "techniqueID": "T1059.004",
-      "score": 6,
+      "score": 200,
       "comment": "lnx_apt_equationgroup_lnx.yml\r\nlnx_shell_priv_esc_prep.yml\r\nlnx_shell_susp_commands.yml\r\nlnx_shell_susp_rev_shells.yml\r\nlnx_susp_jexboss.yml\r\nlnx_auditd_susp_cmds.yml"
     },
     {
       "techniqueID": "T1222.002",
-      "score": 2,
+      "score": 200,
       "comment": "lnx_chattr_immutable_removal.yml\r\nlnx_file_or_folder_permissions.yml"
     },
     {
       "techniqueID": "T1485",
-      "score": 1,
+      "score": 200,
       "comment": "lnx_dd_delete_file.yml"
     },
     {
       "techniqueID": "T1105",
-      "score": 1,
+      "score": 200,
       "comment": "lnx_file_copy.yml"
     },
     {
       "techniqueID": "T1543.002",
-      "score": 1,
+      "score": 200,
       "comment": "lnx_pers_systemd_reload.yml"
     },
     {
       "techniqueID": "T1070.003",
-      "score": 1,
+      "score": 200,
       "comment": "lnx_shell_clear_cmd_history.yml"
     },
     {
       "techniqueID": "T1068",
-      "score": 1,
+      "score": 200,
       "comment": "lnx_sudo_cve_2019_14287.yml"
     },
     {
       "techniqueID": "T1169",
-      "score": 1,
+      "score": 200,
       "comment": "lnx_sudo_cve_2019_14287.yml"
     },
     {
       "techniqueID": "T1190",
-      "score": 3,
+      "score": 200,
       "comment": "lnx_susp_named.yml\r\nlnx_susp_ssh.yml\r\nlnx_susp_vsftp.yml"
     },
     {
       "techniqueID": "T1546.004",
-      "score": 1,
+      "score": 200,
       "comment": "lnx_auditd_alter_bash_profile.yml"
     },
     {
       "techniqueID": "T1562.006",
-      "score": 2,
+      "score": 200,
       "comment": "lnx_auditd_auditing_config_change.yml\r\nlnx_auditd_logging_config_change.yml"
     },
     {
       "techniqueID": "T1136.001",
-      "score": 1,
+      "score": 200,
       "comment": "lnx_auditd_create_account.yml"
     },
     {
       "techniqueID": "T1574.006",
-      "score": 1,
+      "score": 200,
       "comment": "lnx_auditd_ld_so_preload_mod.yml"
     },
     {
       "techniqueID": "T1036.003",
-      "score": 1,
+      "score": 200,
       "comment": "lnx_auditd_masquerading_crond.yml"
     },
     {
       "techniqueID": "T1033",
-      "score": 1,
+      "score": 200,
       "comment": "lnx_auditd_user_discovery.yml"
     },
     {
       "techniqueID": "T1505.003",
-      "score": 1,
+      "score": 200,
       "comment": "lnx_auditd_web_rce.yml"
     },
     {
       "techniqueID": "T1560.001",
-      "score": 1,
+      "score": 200,
       "comment": "lnx_data_compressed.yml"
     },
     {
       "techniqueID": "T1040",
-      "score": 1,
+      "score": 200,
       "comment": "lnx_network_sniffing.yml"
     }
   ]
