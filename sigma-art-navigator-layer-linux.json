@@ -2,7 +2,7 @@
 	"name": "Sigma - ART - GNU\\Linux coverage",
 	"version": "3.0",
 	"domain": "mitre-enterprise",
-	"description": "",
+	"description": "RED (score 100) - only ART test exists.\nBLUE (score 200) - only Sigma rule exists.\nGEEN (score 300) - both ART test and Sigma rule exist.",
 	"filters": {
 		"stages": [
 			"act"
