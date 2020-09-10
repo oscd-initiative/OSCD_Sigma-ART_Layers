@@ -1,8 +1,8 @@
 {
-	"name": "Sigma - ART (Linux)",
+	"name": "Sigma - ART - GNU\\Linux coverage",
 	"version": "3.0",
 	"domain": "mitre-enterprise",
-	"description": "RED (score 100) - only ART test exists.\nBLUE (score 200) - only Sigma rule exists.\nGEEN (score 300) - both ART test and Sigma rule exist.",
+	"description": "",
 	"filters": {
 		"stages": [
 			"act"
@@ -135,16 +135,6 @@
 			"techniqueID": "T1059.004",
 			"tactic": "execution",
 			"score": 300,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1136",
-			"tactic": "persistence",
-			"score": 200,
 			"color": "",
 			"comment": "",
 			"enabled": true,
