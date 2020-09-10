@@ -1,6 +1,6 @@
 {
   "domain": "mitre-enterprise",
-  "name": "Sigma rules coverage",
+  "name": "Sigma coverage Windows",
   "gradient": {
     "colors": [
       "#a0eab5",
