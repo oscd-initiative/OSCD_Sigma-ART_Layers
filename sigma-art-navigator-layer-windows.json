@@ -42,6 +42,26 @@
 			"showSubtechniques": false
 		},
 		{
+			"techniqueID": "T1134",
+			"tactic": "defense-evasion",
+			"score": 200,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1134",
+			"tactic": "privilege-escalation",
+			"score": 200,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
 			"techniqueID": "T1134.001",
 			"tactic": "defense-evasion",
 			"score": 200,
@@ -254,7 +274,7 @@
 		{
 			"techniqueID": "T1020",
 			"tactic": "exfiltration",
-			"score": 100,
+			"score": 300,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -382,6 +402,26 @@
 			"showSubtechniques": false
 		},
 		{
+			"techniqueID": "T1037",
+			"tactic": "persistence",
+			"score": 200,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1037",
+			"tactic": "privilege-escalation",
+			"score": 200,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
 			"techniqueID": "T1037.001",
 			"tactic": "persistence",
 			"score": 300,
@@ -423,6 +463,16 @@
 		},
 		{
 			"techniqueID": "T1110.001",
+			"tactic": "credential-access",
+			"score": 100,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1110.002",
 			"tactic": "credential-access",
 			"score": 100,
 			"color": "",
@@ -484,7 +534,7 @@
 		{
 			"techniqueID": "T1059.005",
 			"tactic": "execution",
-			"score": 200,
+			"score": 300,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -504,6 +554,16 @@
 		{
 			"techniqueID": "T1059.007",
 			"tactic": "execution",
+			"score": 200,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1136",
+			"tactic": "persistence",
 			"score": 200,
 			"color": "",
 			"comment": "",
@@ -575,6 +635,16 @@
 			"techniqueID": "T1485",
 			"tactic": "impact",
 			"score": 300,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1132",
+			"tactic": "command-and-control",
+			"score": 200,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -925,26 +995,6 @@
 			"techniqueID": "T1546.013",
 			"tactic": "persistence",
 			"score": 300,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1546.015",
-			"tactic": "privilege-escalation",
-			"score": 100,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1546.015",
-			"tactic": "persistence",
-			"score": 100,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -1335,6 +1385,36 @@
 			"techniqueID": "T1574.002",
 			"tactic": "defense-evasion",
 			"score": 300,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.012",
+			"tactic": "persistence",
+			"score": 100,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.012",
+			"tactic": "privilege-escalation",
+			"score": 100,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.012",
+			"tactic": "defense-evasion",
+			"score": 100,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -1862,6 +1942,16 @@
 			"showSubtechniques": false
 		},
 		{
+			"techniqueID": "T1137",
+			"tactic": "persistence",
+			"score": 200,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
 			"techniqueID": "T1137.006",
 			"tactic": "persistence",
 			"score": 200,
@@ -1875,6 +1965,16 @@
 			"techniqueID": "T1201",
 			"tactic": "discovery",
 			"score": 300,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1069",
+			"tactic": "discovery",
+			"score": 200,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -2103,6 +2203,16 @@
 		},
 		{
 			"techniqueID": "T1563.002",
+			"tactic": "lateral-movement",
+			"score": 300,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1021",
 			"tactic": "lateral-movement",
 			"score": 200,
 			"color": "",
@@ -2794,7 +2904,7 @@
 		{
 			"techniqueID": "T1078.001",
 			"tactic": "defense-evasion",
-			"score": 200,
+			"score": 300,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -2804,7 +2914,7 @@
 		{
 			"techniqueID": "T1078.001",
 			"tactic": "persistence",
-			"score": 200,
+			"score": 300,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -2814,7 +2924,7 @@
 		{
 			"techniqueID": "T1078.001",
 			"tactic": "privilege-escalation",
-			"score": 200,
+			"score": 300,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -2824,7 +2934,7 @@
 		{
 			"techniqueID": "T1078.001",
 			"tactic": "initial-access",
-			"score": 200,
+			"score": 300,
 			"color": "",
 			"comment": "",
 			"enabled": true,
