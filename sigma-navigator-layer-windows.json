@@ -202,6 +202,11 @@
       "comment": "win_audit_cve.yml\r\nav_exploiting.yml\r\nwin_exploit_cve_2017_0261.yml\r\nwin_exploit_cve_2017_11882.yml\r\nwin_exploit_cve_2017_8759.yml\r\nwin_hwp_exploits.yml"
     },
     {
+      "techniqueID": "T1562.002",
+      "score": 200,
+      "comment": "sysmon_invoke_phantom.yml"
+    },
+    {
       "techniqueID": "T1068",
       "score": 200,
       "comment": "win_audit_cve.yml\r\nwin_apt_hurricane_panda.yml\r\nwin_exploit_cve_2019_1378.yml\r\nwin_exploit_cve_2019_1388.yml\r\nwin_kernel_and_3rd_party_drivers_exploits_token_stealing.yml"
