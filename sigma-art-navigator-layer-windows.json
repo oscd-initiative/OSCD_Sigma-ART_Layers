@@ -1,6 +1,6 @@
 {
 	"name": "Sigma - ART - Windows coverage",
-	"version": "3.0",
+	"version": "4.2",
 	"domain": "mitre-enterprise",
 	"description": "RED (score 100) - only ART test exists.\nBLUE (score 200) - only Sigma rule exists.\nGEEN (score 300) - both ART test and Sigma rule exist.",
 	"filters": {
