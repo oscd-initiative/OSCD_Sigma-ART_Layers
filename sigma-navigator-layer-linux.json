@@ -9,7 +9,7 @@
     "maxValue": 18,
     "minValue": 0
   },
-  "version": "2.2",
+  "version": "4.3",
   "techniques": [
     {
       "techniqueID": "T1059.004",
